@@ -1,0 +1,220 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles for the layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.video {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.video img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.video h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.video p {
+    color: #777;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    .video-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+* {
+    margin: ;
+    padding: ;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+
+}
+
+.navbar {
+    display: flex;
+
+
+}
+
+.nav-list {
+    background-color: ;
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+
+
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 23px 34px;
+
+
+
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font: bold
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: gray;
+    font: bold
+}
+
+
+
+.rightnav {
+    background-color: ;
+    width: 50%;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(pch.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection {
+    height: 100vh;
+}
+
+
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+
+
+}
+
+
+.firsthalf {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.secondhalf {
+    width: 30%;
+}
+
+.secondhalf img {  
+   width: 70%;
+   border: 4px solid wheat;
+   border-radius: 200px;
+   display: block;
+   margin: auto;
+
+}
+.buttons {
+    text-align: center; /* Align buttons in the center */
+  }
+  
+  .btn {
+    display: inline-block; /* Display buttons in a row */
+    margin: 10px; /* Add margin around buttons */
+    padding: 10px 20px; /* Add padding inside buttons */
+    background-color: red; /* Set background color for buttons */
+    color: white; /* Set text color for buttons */
+    border: none; /* Remove button borders */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .btn:hover {
+    background-color: red; /* Change background color on hover */
+  }
+  .text-big {
+    font-size: 24px; /* Adjust the value to set the desired font size */
+    font-weight: bold; /* Add bold font weight */
+    color:black; /* Set the text color */
+    /* Add any additional styles you want for the big text */
+  }
+  
+  .text-small {
+    font-size: 14px; /* Adjust the value to set the desired font size */
+    color:white; /* Set the text color */
+    /* Add any additional styles you want for the small text */
+  }
+  .love {
+    background-color: black;
+    text-decoration: solid;
+    display:flex;
+    text-align: center;
+  }
+  
+  
+
+
+
